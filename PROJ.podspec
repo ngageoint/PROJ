@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name    = "PROJ-include"
+  s.name    = "PROJ"
   s.version = "9.2.1.2"
   s.summary = "PROJ coordinate transformation software library."
   s.description = <<-DESC
@@ -17,6 +17,8 @@ PROJ started purely as a cartography application letting users convert geodetic 
 
   s.platforms = { :ios => "11.0", :osx => "10.13", :watchos => "4.0", :tvos => "11.0" }
 
-  s.source_files = 'include/**/*.hpp'
+  s.source_files = 'src/**/*.{c,h,cpp,hpp}'
+  s.exclude_files = 'src/tests/*'
+  s.dependency 'PROJ-include', '~> 9.2.1.2'
 
 end

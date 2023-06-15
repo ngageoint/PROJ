@@ -33,8 +33,8 @@
 #define FROM_PROJ_CPP
 #endif
 
-#include "proj/coordinateoperation.hpp"
-#include "proj/util.hpp"
+#include "coordinateoperation.hpp"
+#include "util.hpp"
 
 // ---------------------------------------------------------------------------
 

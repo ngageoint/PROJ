@@ -45,27 +45,27 @@
 #include <utility>
 #include <vector>
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/coordinates.hpp"
-#include "proj/coordinatesystem.hpp"
-#include "proj/crs.hpp"
-#include "proj/datum.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "coordinates.hpp"
+#include "coordinatesystem.hpp"
+#include "crs.hpp"
+#include "datum.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 #include "operation/coordinateoperation_internal.hpp"
 #include "operation/esriparammappings.hpp"
 #include "operation/oputils.hpp"
 #include "operation/parammappings.hpp"
 
-#include "proj/internal/coordinatesystem_internal.hpp"
-#include "proj/internal/datum_internal.hpp"
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "coordinatesystem_internal.hpp"
+#include "datum_internal.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
 
-#include "proj/internal/include_nlohmann_json.hpp"
+#include "include_nlohmann_json.hpp"
 
 #include "proj_constants.h"
 

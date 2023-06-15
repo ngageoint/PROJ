@@ -30,7 +30,7 @@
 #include "oputils.hpp"
 #include "proj_constants.h"
 
-#include "proj/internal/internal.hpp"
+#include "internal.hpp"
 
 NS_PROJ_START
 

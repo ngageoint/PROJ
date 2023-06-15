@@ -49,7 +49,7 @@
 
 #include <new>
 
-#include "proj/internal/io_internal.hpp"
+#include "io_internal.hpp"
 
 #include "filemanager.hpp"
 #include "grids.hpp"

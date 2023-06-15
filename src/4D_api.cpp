@@ -51,10 +51,10 @@
 #include <cmath> /* for isnan */
 #include <math.h>
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
 
 using namespace NS_PROJ::internal;
 

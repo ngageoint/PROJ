@@ -33,7 +33,7 @@
 #include <vector>
 
 #include "proj.h"
-#include "proj/util.hpp"
+#include "util.hpp"
 
 //! @cond Doxygen_Suppress
 
