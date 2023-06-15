@@ -32,7 +32,7 @@
 #include <vector>
 
 #include "proj.h"
-#include "proj/util.hpp"
+#include "util.hpp"
 
 NS_PROJ_START
 
