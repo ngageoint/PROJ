@@ -115,7 +115,7 @@ m4/lt~obsolete.m4
 /src/geodtest*
 /src/gie
 /src/proj
-/src/proj_config.h
+# /src/proj_config.h
 /src/proj_config.h.in
 /src/projinfo
 /src/projsync
