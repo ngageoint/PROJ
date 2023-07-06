@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name    = "PROJ"
-  s.version = "9.2.1.2"
+  s.version = "9.2.1.3"
   s.summary = "PROJ coordinate transformation software library."
   s.description = <<-DESC
 PROJ is a generic coordinate transformation software that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations. PROJ is released under the X/MIT open source license
@@ -19,6 +19,9 @@ PROJ started purely as a cartography application letting users convert geodetic 
 
   s.source_files = 'src/**/*.{c,h,cpp,hpp}'
   s.exclude_files = 'src/tests/*'
+
+  s.resource_bundle = { 'PROJ' => ['proj.db'] }
+
   s.dependency 'PROJ-include', '~> 9.2.1.2'
 
 end
