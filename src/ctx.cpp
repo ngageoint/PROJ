@@ -35,7 +35,7 @@
 #include <new>
 
 #include "filemanager.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "io_internal.hpp"
 #include "proj_experimental.h"
 #include "proj_internal.h"
 

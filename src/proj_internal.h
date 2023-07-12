@@ -73,8 +73,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
 
 #include <string>
 #include <vector>

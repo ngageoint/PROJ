@@ -46,9 +46,9 @@
 
 #include "filemanager.hpp"
 #include "proj.h"
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
-#include "proj/io.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
+#include "io.hpp"
 #include "proj_internal.h"
 
 #include <sys/stat.h>

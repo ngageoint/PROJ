@@ -39,15 +39,15 @@
 #include "proj.h"
 #include "proj_internal.h"
 
-#include <proj/common.hpp>
-#include <proj/coordinateoperation.hpp>
-#include <proj/coordinates.hpp>
-#include <proj/crs.hpp>
-#include <proj/io.hpp>
-#include <proj/metadata.hpp>
-#include <proj/util.hpp>
+#include <common.hpp>
+#include <coordinateoperation.hpp>
+#include <coordinates.hpp>
+#include <crs.hpp>
+#include <io.hpp>
+#include <metadata.hpp>
+#include <util.hpp>
 
-#include "proj/internal/internal.hpp" // for split
+#include "internal.hpp" // for split
 
 using namespace NS_PROJ::common;
 using namespace NS_PROJ::coordinates;

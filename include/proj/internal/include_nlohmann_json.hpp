@@ -35,7 +35,7 @@
 
 #ifdef EXTERNAL_NLOHMANN_JSON
 
-#include <nlohmann/json.hpp>
+#include <json.hpp>
 
 #else // !EXTERNAL_NLOHMANN_JSON
 
@@ -43,7 +43,7 @@
 #define nlohmann proj_nlohmann
 
 #if !defined(DOXYGEN_ENABLED)
-#include "vendor/nlohmann/json.hpp"
+#include "json.hpp"
 #endif
 
 #endif // EXTERNAL_NLOHMANN_JSON
