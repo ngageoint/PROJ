@@ -29,7 +29,7 @@
 #define TINSHIFT_HPP
 
 #ifdef PROJ_COMPILATION
-#include "proj/internal/include_nlohmann_json.hpp"
+#include "include_nlohmann_json.hpp"
 #else
 #include "nlohmann/json.hpp"
 #endif

@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <proj/crs.hpp>
+#include <crs.hpp>
 
 #include <vector>
 

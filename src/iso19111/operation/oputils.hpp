@@ -29,10 +29,10 @@
 #ifndef OPUTILS_HPP
 #define OPUTILS_HPP
 
-#include "proj/coordinateoperation.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "coordinateoperation.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 // ---------------------------------------------------------------------------
 

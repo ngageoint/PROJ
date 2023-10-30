@@ -42,7 +42,7 @@
 #include "geodesic.h"
 #include "proj_internal.h"
 
-#include "proj/internal/internal.hpp"
+#include "internal.hpp"
 
 using namespace NS_PROJ::internal;
 

@@ -40,11 +40,11 @@
 #include <string>
 #include <vector>
 
-#include <proj/io.hpp>
-#include <proj/metadata.hpp>
-#include <proj/util.hpp>
+#include <io.hpp>
+#include <metadata.hpp>
+#include <util.hpp>
 
-#include <proj/internal/internal.hpp>
+#include <internal.hpp>
 
 // PROJ include order is sensitive
 // clang-format off

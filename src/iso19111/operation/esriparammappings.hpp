@@ -29,8 +29,8 @@
 #ifndef ESRIPARAMMAPPINGS_HPP
 #define ESRIPARAMMAPPINGS_HPP
 
-#include "proj/coordinateoperation.hpp"
-#include "proj/util.hpp"
+#include "coordinateoperation.hpp"
+#include "util.hpp"
 
 #include "esriparammappings.hpp"
 #include <vector>

@@ -30,18 +30,18 @@
 #define FROM_PROJ_CPP
 #endif
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/coordinatesystem.hpp"
-#include "proj/crs.hpp"
-#include "proj/datum.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "coordinatesystem.hpp"
+#include "crs.hpp"
+#include "datum.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 #include "operation/oputils.hpp"
-#include "proj/internal/coordinatesystem_internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "coordinatesystem_internal.hpp"
+#include "io_internal.hpp"
 
 #include <map>
 #include <set>

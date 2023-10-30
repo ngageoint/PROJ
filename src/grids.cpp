@@ -33,8 +33,8 @@
 
 #include "grids.hpp"
 #include "filemanager.hpp"
-#include "proj/internal/internal.hpp"
-#include "proj/internal/lru_cache.hpp"
+#include "internal.hpp"
+#include "lru_cache.hpp"
 #include "proj_internal.h"
 
 #ifdef TIFF_ENABLED
