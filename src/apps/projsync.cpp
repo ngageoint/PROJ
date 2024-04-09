@@ -39,8 +39,8 @@
 #include "proj.h"
 #include "proj_internal.h"
 
-#include "proj/internal/include_nlohmann_json.hpp"
-#include "proj/internal/internal.hpp"
+#include "include_nlohmann_json.hpp"
+#include "internal.hpp"
 
 using json = nlohmann::json;
 using namespace NS_PROJ::internal;

@@ -32,12 +32,12 @@
 
 #include <string.h>
 
-#include "proj/coordinateoperation.hpp"
-#include "proj/crs.hpp"
-#include "proj/util.hpp"
+#include "coordinateoperation.hpp"
+#include "crs.hpp"
+#include "util.hpp"
 
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
 
 #include "oputils.hpp"
 #include "parammappings.hpp"

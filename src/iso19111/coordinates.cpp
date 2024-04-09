@@ -30,13 +30,13 @@
 #define FROM_PROJ_CPP
 #endif
 
-#include "proj/coordinates.hpp"
-#include "proj/common.hpp"
-#include "proj/crs.hpp"
-#include "proj/io.hpp"
+#include "coordinates.hpp"
+#include "common.hpp"
+#include "crs.hpp"
+#include "io.hpp"
 
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
 
 #include "proj_json_streaming_writer.hpp"
 

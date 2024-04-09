@@ -98,7 +98,7 @@ Thomas Knudsen, thokn@sdfe.dk, 2017-01-17/2017-09-18
 
 #include <limits>
 
-#include "proj/internal/internal.hpp"
+#include "internal.hpp"
 
 using namespace NS_PROJ::internal;
 

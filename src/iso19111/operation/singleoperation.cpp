@@ -30,15 +30,15 @@
 #define FROM_PROJ_CPP
 #endif
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/crs.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "crs.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
 
 #include "coordinateoperation_internal.hpp"
 #include "coordinateoperation_private.hpp"

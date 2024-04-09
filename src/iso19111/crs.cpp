@@ -34,19 +34,19 @@
 #define DO_NOT_DEFINE_EXTERN_DERIVED_CRS_TEMPLATE
 //! @endcond
 
-#include "proj/crs.hpp"
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/coordinatesystem.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "crs.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "coordinatesystem.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
-#include "proj/internal/coordinatesystem_internal.hpp"
-#include "proj/internal/crs_internal.hpp"
-#include "proj/internal/datum_internal.hpp"
-#include "proj/internal/internal.hpp"
-#include "proj/internal/io_internal.hpp"
+#include "coordinatesystem_internal.hpp"
+#include "crs_internal.hpp"
+#include "datum_internal.hpp"
+#include "internal.hpp"
+#include "io_internal.hpp"
 
 #include "operation/oputils.hpp"
 

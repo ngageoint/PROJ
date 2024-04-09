@@ -36,7 +36,7 @@
 #include <time.h>
 
 #include "grids.hpp"
-#include "proj/internal/internal.hpp"
+#include "internal.hpp"
 #include "proj_internal.h"
 
 #include <algorithm>
