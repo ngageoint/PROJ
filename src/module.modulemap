@@ -1,0 +1,7 @@
+module proj {
+    // Include the header, but not as an `umbrella header "proj.h"`, since it doesn't include all headers in src folder
+    // The src directory has a C header API and the implementation is C++ under the hood.
+    header "proj.h"
+    
+    export *
+}
