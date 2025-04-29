@@ -23,6 +23,7 @@ build.local.sh
 /.vs*
 /*build*
 /nbproject
+/.swiftpm
 
 # Autotools
 autom4te.cache
