@@ -10,8 +10,8 @@ let package = Package(
     products: [
         .library(
             name: "proj",
-//             type: .static,
-            type: .dynamic,
+             type: .static,
+//            type: .dynamic,
             targets: ["proj"]
         ),
     ],
@@ -31,7 +31,7 @@ let package = Package(
                 "wkt2_grammar.y",
             ],
             resources: [
-//                .copy("../proj.db") // What is this?
+                .copy("../proj.db")
             ],
             publicHeadersPath: ".", // The C header files are mixed with src files, we use a modulemap.module to load "proj.h"
             cSettings: [
