@@ -16,7 +16,7 @@ import PackageDescription
 let package = Package(
     name: "proj",
     platforms: [
-        .iOS(.v13), .macOS(.v13)
+        .iOS(.v13), .macOS(.v12)
     ],
     products: [
         .library(
